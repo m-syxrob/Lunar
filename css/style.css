@@ -1,0 +1,79 @@
+.row {
+    width: 1240px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: Inter;
+
+}
+header {
+    height: 80px;
+    display: flex;
+    top: 50%;
+
+}
+.row div{
+    padding-right: 50px;
+}
+.navigation a{
+    
+    font-size: 14px;
+    color: rgb(119, 114, 114);
+    padding-left: 30px;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    padding-top: 10px;
+    
+}
+.button {  
+    margin-left: 350px;
+    border: 1px solid;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    border: 4mm solid #DD7979;
+    background: #DD7979;
+    border-radius: 10px;
+}
+.button a{
+    color: #fff;
+}
+.title{
+    display: block;
+    margin-top: 135px;
+    text-align: center;
+}
+.container h5 {
+    font-size: 12px;
+
+}
+h1 {
+    font-size: 48px;
+}
+span {
+    font-size: 12px;
+}
+.title p {
+    font-size: 18px;
+}
+main {
+    background-color: #FFF4F4;
+    color: #744343;
+}
+
+.mainbuttons a{
+    border: 4mm solid #DD7979;
+    border-radius: 8px;
+}
+.mainbuttons a.first {
+    background: #DD7979;
+    color: #fff;
+    
+}
