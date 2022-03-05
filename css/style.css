@@ -1,63 +1,73 @@
 .row {
     max-width: 1440px;
-    
+
     margin-top: 20px;
     margin: 0 auto;
 
     font-family: Inter;
 
 }
-.container{
+
+.container {
     position: relative;
 }
-.color{
+
+.color {
     background: #FFF4F4;
 }
-.partical{
+
+.partical {
     display: flex;
     position: relative;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.afterrow{
+
+.afterrow {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
-.navigation a{
-    
+
+.navigation a {
+
     font-size: 14px;
     color: rgb(119, 114, 114);
     padding-left: 30px;
 }
+
 a {
     text-decoration: none;
 }
+
 nav {
     padding-top: 10px;
-    
-    
+
+
 }
-.button {  
-        
+
+.button {
+
     border: 1px solid;
     color: #fff;
-    
+
     border: 3mm solid #DD7979;
     background: #DD7979;
     border-radius: 8px;
-    
+
 }
-.button a{
+
+.button a {
     position: relative;
     color: #fff;
 }
 
-.im1, .im2{
+.im1,
+.im2 {
     display: flex;
     position: absolute;
-    
+
 }
 
 
@@ -65,80 +75,92 @@ nav {
 .im1 {
     right: 0;
     top: -100px;
-    
+
 }
-.im2{
+
+.im2 {
     bottom: 0;
     padding-bottom: 13px;
     padding-left: 40px;
 }
 
 main {
-    
-    
+
+
     position: relative;
     overflow: hidden;
-   
+
 }
 
-.title{
+.title {
     display: block;
-    text-align: center; 
+    text-align: center;
 
 }
-.image{
-    
+
+.image {
+
     position: absolute;
     padding-left: 60%;
     width: 400px;
     height: 400px;
-    
+
 
 }
-.imagebetween{
-    
+
+.imagebetween {
+
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
 
 }
-.imagebetween img{
-    top: -127px; 
+
+.imagebetween img {
+    top: -127px;
     position: relative;
     z-index: 99;
-  
+
 }
+
 .container h5 {
     font-size: 12px;
 
 }
+
 h1 {
     font-size: 48px;
 }
+
 span {
     font-size: 12px;
 }
+
 .title p {
     font-size: 18px;
 }
 
-.mainbuttons{
+.mainbuttons {
     display: flex;
     justify-content: center;
 }
-a.first{
+
+a.first {
     margin-right: 10px;
 }
-.mainbuttons a{
+
+.mainbuttons a {
     border: 0.5mm solid #DD7979;
     border-radius: 8px;
     padding: 4mm;
-  
+
 }
+
 .mainbuttons a.first {
     background: #DD7979;
     color: #fff;
 }
+
 .firstpart {
     padding: 100 0;
     padding-bottom: 200px;
@@ -151,93 +173,113 @@ a.first{
     position: relative;
     border-radius: 10px;
     padding-bottom: 120px;
-    
+
 }
-.threeblocks div{
+
+.threeblocks div {
     background: #fff;
     text-align: center;
     width: 267px;
+    padding: 30px 0;
+    
 }
+.threeblocks h1{
+    margin: 0 auto;
+}
+
 .threeblocks span {
     font-size: 18px;
     color: #DD7979;
-   
+
 }
-.firstblock{
+
+.firstblock {
     border-radius: 20px 0 0 20px;
 }
-.thirdblock{
+
+.thirdblock {
     border-radius: 0 20px 20px 0;
 }
-.secondpart {
- 
-    
-}
+
 .test {
     background: #DD7979;
 }
+
 .main2 {
-    
+
     padding-top: 5%;
-    padding-bottom: 10%;
     background: #FFF4F4;
 }
-.main2title{
+
+.main2title {
     text-align: center;
     color: #744343;
 
 }
-.main2title span{
-  color:  #DD7979 ;
+
+.main2title span {
+    color: #DD7979;
 }
-.groupofblocks div{
+
+.landing1 img{
+    width: 100%;
+}
+
+.groupofblocks div {
     text-align: center;
-    
-    width: 49.33%;
+    border-radius: 20px;
+    width: 45.33%;
     height: 428px;
     background: #fff;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 120px;
 }
+
 .groupofblocks {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .groupofblocks2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.groupofblocks2 div{
+
+.groupofblocks2 div {
     position: relative;
     font-family: Inter;
     width: 33%;
 
-    
+
 }
+
 .text {
     position: absolute;
     margin-bottom: -170px;
     padding-left: 50px;
     font-size: 18px;
     color: #744343;
-    
 
- 
+
+
 }
+
 .imgwithtext span {
-    font-size: 16px; 
+    font-size: 16px;
     color: #967272;
 }
-.main4{
+
+.main4 {
     background: #FFF4F4;
 
 }
-.portfolio{
+
+.portfolio {
     background: #fff;
     width: 380px;
-    
+
     text-align: center;
     padding-top: 53px;
     padding-bottom: 53px;
@@ -246,15 +288,18 @@ a.first{
 
 
 }
-.groupofblocks3{
+
+.groupofblocks3 {
     padding-top: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.groupofblocks3 div{
+
+.groupofblocks3 div {
     width: 32%;
 }
+
 .portfolio2 {
     background: #fff;
     width: 570px;
@@ -264,10 +309,12 @@ a.first{
     margin-top: 20px;
     border-radius: 20px;
 }
-.groupofblocks4 div{
+
+.groupofblocks4 div {
     width: 49%;
     margin-bottom: 50px;
 }
+
 .groupofblocks4 {
     display: flex;
     flex-wrap: wrap;
@@ -275,11 +322,12 @@ a.first{
     
 }
 
-.mail{
+.mail {
     background: #fff;
-    
+
 }
-.btn{
+
+.btn {
     border: 1px solid #FFBABA;
     width: 600px;
     color: #fff;
@@ -289,50 +337,61 @@ a.first{
     padding-bottom: 22px;
     border-radius: 10px;
 }
-.btn a{
+
+.btn a {
     color: #fff;
 }
+
 input {
     width: 600px;
     height: 60px;
     border-radius: 10px;
     border-color: #FFBABA;
 }
-.form{
+
+.form {
     margin-left: 420px;
 }
-.underlinetext{
+
+.underlinetext {
     margin-top: 30px;
     margin-left: -40%;
     text-align: center;
 }
+
 footer {
     background: #744343;
 }
-.logos{
+
+.logos {
     display: flex;
     justify-content: space-between;
 }
-.logo1{
+
+.logo1 {
     padding-top: 72px;
     padding-bottom: 42px;
 }
-.logo2 img{
+
+.logo2 img {
     padding-top: 78px;
     margin-right: 20px;
     padding-bottom: 58px;
 }
-.foottitle{
+
+.foottitle {
     color: #fff;
     font-family: Inter;
     font-size: 38px;
-    
+
 }
-.foottitle span{
+
+.foottitle span {
     font-size: 16px;
     color: #FFBABA;
 }
-.foottitle a{
+
+.foottitle a {
     border: 1px solid #DD7979;
     text-decoration: none;
     color: #fff;
@@ -341,54 +400,58 @@ footer {
     padding: 14 24 16 24;
     border-radius: 10px;
 }
+
 .footthreeblock {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.footthreeblock div{
+
+.footthreeblock div {
     width: 30%;
 }
+
 .footpages {
     font-size: 14px;
     line-height: 30px;
     color: #fff;
 }
-.footpages span{
+
+.footpages span {
     font-size: 18px;
 }
+
 .footpages1 {
     font-size: 14px;
     line-height: 24px;
     color: #fff;
-    
+
 }
-.footpages1 span{
+
+.footpages1 span {
     font-size: 18px;
 }
-.footpages1a{
+
+.footpages1a {
     display: flex;
     justify-content: space-between;
-    
+
 }
+
 .footthreeblock {
-    padding-bottom: 70px;   
+    padding-bottom: 70px;
 }
-.copyright{
+
+.copyright {
     color: #fff;
     padding: 20px;
 }
-.copyright span{
+
+.copyright span {
     color: #FFBABA;
     ;
 }
 
 .main4.container {
     overflow: hidden;
-}
-.fon img {
-    width: 100%;
-    position: absolute;
-    margin-top: -1480px;
-    
 }
