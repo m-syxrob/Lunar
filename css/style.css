@@ -1,21 +1,29 @@
 .row {
-    width: 1240px;
-    display: flex;
-    justify-content: center;
+    max-width: 1440px;
+    
     margin-top: 20px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin: 0 auto;
+
     font-family: Inter;
 
 }
-header {
-    height: 80px;
-    display: flex;
-    top: 50%;
-
+.container{
+    position: relative;
 }
-.row div{
-    padding-right: 50px;
+.color{
+    background: #FFF4F4;
+}
+.partical{
+    display: flex;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.afterrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 .navigation a{
     
@@ -29,26 +37,76 @@ a {
 nav {
     padding-top: 10px;
     
+    
 }
 .button {  
-    margin-left: 350px;
+        
     border: 1px solid;
     color: #fff;
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    border: 4mm solid #DD7979;
+    
+    border: 3mm solid #DD7979;
     background: #DD7979;
-    border-radius: 10px;
+    border-radius: 8px;
+    
 }
 .button a{
+    position: relative;
     color: #fff;
 }
+
+.im1, .im2{
+    display: flex;
+    position: absolute;
+    
+}
+
+
+
+.im1 {
+    right: 0;
+    top: -100px;
+    
+}
+.im2{
+    bottom: 0;
+    padding-bottom: 13px;
+    padding-left: 40px;
+}
+
+main {
+    
+    
+    position: relative;
+    overflow: hidden;
+   
+}
+
 .title{
     display: block;
-    margin-top: 135px;
-    text-align: center;
+    text-align: center; 
+
+}
+.image{
+    
+    position: absolute;
+    padding-left: 60%;
+    width: 400px;
+    height: 400px;
+    
+
+}
+.imagebetween{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+.imagebetween img{
+    top: -127px; 
+    position: relative;
+    z-index: 99;
+  
 }
 .container h5 {
     font-size: 12px;
@@ -63,17 +121,274 @@ span {
 .title p {
     font-size: 18px;
 }
-main {
-    background-color: #FFF4F4;
-    color: #744343;
-}
 
+.mainbuttons{
+    display: flex;
+    justify-content: center;
+}
+a.first{
+    margin-right: 10px;
+}
 .mainbuttons a{
-    border: 4mm solid #DD7979;
+    border: 0.5mm solid #DD7979;
     border-radius: 8px;
+    padding: 4mm;
+  
 }
 .mainbuttons a.first {
     background: #DD7979;
     color: #fff;
+}
+.firstpart {
+    padding: 100 0;
+    padding-bottom: 200px;
+}
+
+.threeblocks {
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+    padding-bottom: 120px;
+    
+}
+.threeblocks div{
+    background: #fff;
+    text-align: center;
+    width: 267px;
+}
+.threeblocks span {
+    font-size: 18px;
+    color: #DD7979;
+   
+}
+.firstblock{
+    border-radius: 20px 0 0 20px;
+}
+.thirdblock{
+    border-radius: 0 20px 20px 0;
+}
+.secondpart {
+ 
+    
+}
+.test {
+    background: #DD7979;
+}
+.main2 {
+    
+    padding-top: 5%;
+    padding-bottom: 10%;
+    background: #FFF4F4;
+}
+.main2title{
+    text-align: center;
+    color: #744343;
+
+}
+.main2title span{
+  color:  #DD7979 ;
+}
+.groupofblocks div{
+    text-align: center;
+    
+    width: 49.33%;
+    height: 428px;
+    background: #fff;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.groupofblocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.groupofblocks2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.groupofblocks2 div{
+    position: relative;
+    font-family: Inter;
+    width: 33%;
+
+    
+}
+.text {
+    position: absolute;
+    margin-bottom: -170px;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #744343;
+    
+
+ 
+}
+.imgwithtext span {
+    font-size: 16px; 
+    color: #967272;
+}
+.main4{
+    background: #FFF4F4;
+
+}
+.portfolio{
+    background: #fff;
+    width: 380px;
+    
+    text-align: center;
+    padding-top: 53px;
+    padding-bottom: 53px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+
+}
+.groupofblocks3{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.groupofblocks3 div{
+    width: 32%;
+}
+.portfolio2 {
+    background: #fff;
+    width: 570px;
+    text-align: center;
+    padding-top: 53px;
+    padding-bottom: 53px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.groupofblocks4 div{
+    width: 49%;
+    margin-bottom: 50px;
+}
+.groupofblocks4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.mail{
+    background: #fff;
+    
+}
+.btn{
+    border: 1px solid #FFBABA;
+    width: 600px;
+    color: #fff;
+    background: #DD7979;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-radius: 10px;
+}
+.btn a{
+    color: #fff;
+}
+input {
+    width: 600px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: #FFBABA;
+}
+.form{
+    margin-left: 420px;
+}
+.underlinetext{
+    margin-top: 30px;
+    margin-left: -40%;
+    text-align: center;
+}
+footer {
+    background: #744343;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+.logo1{
+    padding-top: 72px;
+    padding-bottom: 42px;
+}
+.logo2 img{
+    padding-top: 78px;
+    margin-right: 20px;
+    padding-bottom: 58px;
+}
+.foottitle{
+    color: #fff;
+    font-family: Inter;
+    font-size: 38px;
+    
+}
+.foottitle span{
+    font-size: 16px;
+    color: #FFBABA;
+}
+.foottitle a{
+    border: 1px solid #DD7979;
+    text-decoration: none;
+    color: #fff;
+    background: #DD7979;
+    font-size: 15px;
+    padding: 14 24 16 24;
+    border-radius: 10px;
+}
+.footthreeblock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footthreeblock div{
+    width: 30%;
+}
+.footpages {
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+}
+.footpages span{
+    font-size: 18px;
+}
+.footpages1 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    
+}
+.footpages1 span{
+    font-size: 18px;
+}
+.footpages1a{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footthreeblock {
+    padding-bottom: 70px;   
+}
+.copyright{
+    color: #fff;
+    padding: 20px;
+}
+.copyright span{
+    color: #FFBABA;
+    ;
+}
+
+.main4.container {
+    overflow: hidden;
+}
+.fon img {
+    width: 100%;
+    position: absolute;
+    margin-top: -1480px;
     
 }
